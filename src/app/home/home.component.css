@@ -1,0 +1,79 @@
+.content {
+  position: absolute;
+  top: 45rem ;
+  left: 58rem ;
+  transform: translate(-50%, -50%);
+  height: 160px;
+  overflow: hidden;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ecf0f1;
+}
+.container {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 90px;
+}
+.container:after, .container:before {
+  position: absolute;
+  top: 0;
+  color: #16a085;
+  font-size: 42px;
+  line-height: 40px;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.text {
+  font-size: 22px;
+  display: inline;
+  float: left;
+  margin: 0;
+}
+.list {
+  margin-top: 0px;
+  padding-left: 110px;
+  text-align: left;
+  list-style: none;
+
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.item {
+  line-height:40px;
+  margin:0;
+}
+
+@keyframes change {
+  0%, 12.66%, 100% {transform:translate3d(0,0,0);}
+  16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+  33.32%,45.98% {transform:translate3d(0,-50%,0);}
+  49.98%,62.64% {transform:translate3d(0,-75%,0);}
+  66.64%,79.3% {transform:translate3d(0,-50%,0);}
+  83.3%,95.96% {transform:translate3d(0,-25%,0);}
+}
+
+svg{
+  background:url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+  background-size:cover;
+  display:block;
+  margin:30vmin auto;
+}
+text{
+  font-size:9px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text{
+  transition:font-size 1s ease-in;
+  font-size: 300px;
+}

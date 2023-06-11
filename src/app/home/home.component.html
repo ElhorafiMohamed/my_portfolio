@@ -1,0 +1,49 @@
+<div class="row">
+  <div class=" col-sm-1"></div>
+  <div class=" col-sm-6">
+    <div class="home section">
+      <div class="home-text">
+        <div class="pb-lg-1">
+          <span class="one">Bonjour,</span>
+          <span class="two">Je m'appelle</span>
+        </div>
+
+        <h1>Mohamed ELHORAFI</h1>
+        <h2>développeur<span> Web.</span></h2>
+        <p>Spécialisé dans le développement frontend et backend avec plus de 1 ans d'expérience professionnelle
+          dans la création de sites Web et travaillant avec des technologies telles que </p>
+        <div class='content'>
+          <div class="container">
+            <ul class="list">
+              <li class="item"><i class="fab fa-angular" style="color: #2e5fb2;"></i> Angular</li>
+              <li class="item"><i class="fab fa-node" style="color: #b1d20f;"></i> Node.js</li>
+              <li class="item"><i class="fab fa-js" style="color: #2e5fb2;"></i> TypeScript</li>
+              <li class="item"><i class="fab fa-js" style="color: #2e5fb2;"></i> JavaScript</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div [routerLink]="'/portfolio'" class="button">Portfolio</div>
+          <div [routerLink]="'/contactme'" class="button">Contact</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" col-sm-5">
+    <svg viewBox="0 0 50 50" width="500" height="500">
+      <defs>
+        <mask id="mask" x="0" y="0" width="100" height="49">
+          <rect x="0.5" y="0.5" width="49" height="49" fill="#fff"/>
+          <ng-container *ngFor="let letter of letters; let i=index">
+            <text [attr.x]="positions[i]" text-anchor="middle" y="50" dy="0">{{letter}}</text>
+          </ng-container>
+        </mask>
+      </defs>
+      <rect x="0.5" y="0.5" width="49" height="49" mask="url(#mask)" fill-opacity="1" fill="#E3DFD2"/>
+    </svg>
+  </div>
+
+</div>
+
+
+
