@@ -4,7 +4,134 @@
   padding: 32px;
 }
 
+.about {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  padding-top: 30px;
+}
 
+.tech {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  -moz-box-align: center;
+  align-items: center;
+}
+ li{
+  position: relative;
+  margin: 0px;
+}
+.det_exp {
+  margin: 0px;
+  font: 300 0.875em / 1.6 "Lato", Helvetica, Arial, sans-serif;
+}
+.ligne{
+  position: absolute;
+  top: 5px;
+  left: 15%;
+  bottom: 1px;
+  width: 1px;
+  transform: translateX(-1px);
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.2);
+}
+.date_lieu{
+  padding-left: 18px;
+  padding-right: 18px;}
+.date{
+  text-align: right;
+  font-size: 0.85rem;
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.15s ease 0s;
+}
+.experince {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.lieu{
+  text-align: right;
+  font-size: 0.95rem;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+.cyrcle{
+  margin-top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(226, 120, 108);
+  transform: scale(1.4);
+
+}
+.exper_titre {
+  margin: 0px;
+  font: 600 1.33em / 1.2 "Raleway", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.tech_image {
+  user-select: none;
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+  flex-shrink: 0;
+  display: block;
+}
+
+.tech_name{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+}
+
+.all_tech{
+  display: flex;
+  flex-flow: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.technologie_text {
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+
+}
+
+a {
+  color: rgb(226, 120, 108);
+  transition: color 0.2s ease 0s;
+  text-decoration: none;
+}
+
+p {
+  font: 300 1em / 1.6 "Lato", Helvetica, Arial, sans-serif;
+  margin: 12px 0px 0px;
+}
+
+.cadre {
+  background: linear-gradient(45deg, rgb(28, 40, 73) 0%, rgb(36, 52, 95) 100%);
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0px;
+  font: 600 2.4em / 1.2 "Raleway", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
 
 svg:not(:root) {
   overflow-clip-margin: content-box;
@@ -29,7 +156,7 @@ svg:not(:root) {
   font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
-.technologie_text{
+.technologie_text {
   display: flex;
   align-items: center;
   flex-direction: row;

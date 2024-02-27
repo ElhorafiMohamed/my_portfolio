@@ -1,0 +1,23 @@
+li {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 130.5%;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  line-height: 2;
+}
+
+a {
+  color: rgb(226, 120, 108);
+  transition: color 0.2s ease 0s;
+  text-decoration: none;
+}
+
+strong {
+  margin: 0px;
+  font: 600 0.925em / 1.2 "Raleway", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font: 300 1em / 1.6 "Lato", Helvetica, Arial, sans-serif;
+  margin: 12px 0px 0px;
+}

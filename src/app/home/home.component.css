@@ -1,9 +1,10 @@
 .content {
   position: absolute;
-  top: 45rem ;
-  left: 58rem ;
+  top: 41rem ;
+  left: 40rem ;
   transform: translate(-50%, -50%);
   height: 160px;
+  width: 500px;
   overflow: hidden;
 
   font-family: 'Lato', sans-serif;
